@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby build && gatsby serve",
+    "clean": "gatsby clean"
+  },
   "dependencies": {
     "gatsby": "^3.14.1"
   }
